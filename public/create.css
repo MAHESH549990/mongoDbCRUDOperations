@@ -1,0 +1,38 @@
+.container{
+  display:inline-block;
+   flex-wrap:wrap;
+  background-color: rgb(0, 0, 0);
+  padding:2rem;
+  border-radius:1rem;
+  border:5px solid rgb(168, 244, 5); 
+  margin:4rem; 
+  height:100%;
+  width:50%;
+}
+.container h1{
+  text-align: center;
+  color:white;
+  font-weight:900;
+  font-size:2rem;
+}
+.container input{
+  height:3rem;
+  width:40%;
+  border-radius: 0.5rem;
+  border:1px solid red;
+  font-size: 1.5rem;
+}
+.container textarea{
+  height:6rem;
+  width:40%;
+  border-radius: 0.5rem;
+  border:1px solid red;
+  font-size: 1.5rem;
+}
+.container button{
+    font-size:1.5rem;
+  background-color: white;
+  border-radius:0.5rem;
+  padding:0.5rem;
+  border:1px solid red;
+}
